@@ -38,7 +38,7 @@
                                     <div class="form-floating mb-3">
                                         <input type="email" class="form-control shadow-none" id="floatingInput"
                                             placeholder="name@example.com">
-                                        <label for="floatingInput">Email address</label>
+                                        <label for="floatingInput">Email</label>
                                     </div> <!-- end input email -->
 
                                     <div class="form-floating mb-3">
@@ -47,10 +47,12 @@
                                         <label for="floatingPassword">Password</label>
                                     </div> <!-- end input password -->
 
-                                    <div class="d-grid">
+                                    <div class="d-grid mb-3">
                                         <button class="btn btn-lg btn-login fw-bold mb-2 btn__orange text-white"
                                             type="submit">Sign in</button>
                                     </div> <!-- end button sign in -->
+
+                                    <p>Belum punya akun? <a href="/register">Daftar sekarang!</a></p>
                                 </form> <!-- end form login -->
                             </div> <!-- end col -->
                         </div> <!-- end row -->

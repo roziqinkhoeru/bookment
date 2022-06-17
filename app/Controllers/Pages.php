@@ -57,4 +57,14 @@ class Pages extends BaseController
 
         return view('auth/login', $data);
     }
+
+    public function register()
+    {
+        $data = [
+            'title' => 'Register Bookment',
+            'css' => '<link rel="stylesheet" href="/assets/css/login.css">',
+        ];
+
+        return view('auth/register', $data);
+    }
 }

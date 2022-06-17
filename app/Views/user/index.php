@@ -9,7 +9,7 @@
                 <h1>Manage your books with one click.</h1>
                 <p class="title__desc">Bookment can help you organize your books to make it easy and fun to use.</p>
                 <div class="btn__left">
-                    <a href="#" class="btn__get btn__orange">Get Started</a>
+                    <a href="/login" class="btn__get btn__orange">Get Started</a>
                 </div>
             </div> <!-- end left body -->
             <div class="right__body">
