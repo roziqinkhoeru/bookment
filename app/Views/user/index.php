@@ -1,6 +1,6 @@
-<?php $this->extend('templates/header'); ?>
+<?= $this->extend('templates/userTemplates') ?>
 
-<?php $this->section('mainpage'); ?>
+<?= $this->section('content') ?>
 
 <div class="jumbotron__section">
     <div class="container">
@@ -20,4 +20,4 @@
     </div> <!-- end container -->
 </div> <!-- end jumbotron section -->
 
-<?php $this->endSection();
+<?= $this->endSection();
