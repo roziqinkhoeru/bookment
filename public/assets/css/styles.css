@@ -1,0 +1,311 @@
+/*******************************************/
+/*               GOOGLE FONT               */
+/*******************************************/
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/****************************************/
+/*               VARIABLE               */
+/****************************************/
+:root {
+  --ff-head: "Cabin", sans-serif;
+  --ff-body: "Source Sans Pro", sans-serif;
+}
+
+/*********************************************/
+/*               GENERAL STYLE               */
+/*********************************************/
+body {
+  font-family: var(--ff-body);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-head);
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.btn__orange {
+  transition: all 0.4s ease;
+
+  background-color: orange;
+}
+
+/********************************************/
+/*               INDEX STYLES               */
+/********************************************/
+/*navbar*/
+.nav__section {
+  width: 100%;
+  padding: 24px 60px;
+
+  background-color: white;
+}
+
+.brand__logo {
+  height: 56px;
+}
+
+.nav__bar {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.nav__item {
+  padding: 9px 18px;
+}
+
+.nav__link {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn__login {
+  padding: 9px 36px !important;
+
+  transition: all 0.4s ease;
+
+  border-radius: 9999px;
+  background-color: white;
+  border: 2px solid orange;
+}
+
+.jumbotron__section {
+  padding-top: 60px;
+}
+
+.jumbotron__body {
+  display: flex;
+
+  height: calc(100vh - 60px);
+
+  align-items: center;
+}
+
+.left__jumbotron__body {
+  flex: 50%;
+}
+
+.right__jumbotron__body {
+  flex: 50%;
+}
+
+.title__desc {
+  font-size: 24px;
+}
+
+.btn__get {
+  font-family: var(--ff-body);
+  font-size: 20px;
+  font-weight: 600;
+
+  padding: 18px 42px;
+
+  transition: all 0.4s ease;
+
+  color: white;
+  border-radius: 9999px;
+}
+
+.btn__get:hover {
+  color: white;
+}
+
+.btn__left {
+  padding-top: 36px;
+}
+
+.right__img {
+  width: 45vw;
+}
+
+/********************************************/
+/*               LOGIN STYLES               */
+/********************************************/
+.login {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.form__login .form-control:focus {
+  border-color: orange;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+
+  padding: 0.75rem 1rem;
+
+  letter-spacing: 0.05rem;
+}
+
+.btn__close {
+  position: absolute;
+  right: 0;
+
+  display: block;
+
+  margin: 24px 36px;
+}
+
+.btn__close:hover i {
+  color: rgba(0, 0, 0, 1);
+}
+
+.btn__close i {
+  font-size: 40px;
+
+  transition: all 0.4s ease;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/************************************************/
+/*               VIEW BOOK STYLES               */
+/************************************************/
+
+@media (min-width: 1400px) {
+  .nav__section {
+    padding: 24px 120px;
+  }
+}
+
+/*=============== tablet view ===============*/
+@media screen and (max-width: 991px) {
+  /********************************************/
+  /*               INDEX STYLES               */
+  /********************************************/
+  h1 {
+    font-size: 48px;
+  }
+
+  /********************************************/
+  /*               INDEX STYLES               */
+  /********************************************/
+  .title__desc {
+    font-size: 20px;
+  }
+
+  .nav__bar {
+    display: block;
+  }
+
+  .btn__get {
+    font-size: 18px;
+
+    padding: 12px 30px;
+
+    transition: all 0.4s ease;
+
+    border-radius: 12px;
+  }
+
+  .nav__bar {
+    padding-top: 30px;
+  }
+
+  .btn__login {
+    text-align: center;
+  }
+
+  .btn__sec {
+    padding-top: 30px;
+  }
+
+  .btn__get:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn__get:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.45);
+  }
+
+  /********************************************/
+  /*               LOGIN STYLES               */
+  /********************************************/
+  .btn__close i {
+    font-size: 36px;
+  }
+
+  /************************************************/
+  /*               VIEW BOOK STYLES               */
+  /************************************************/
+}
+
+/*=============== mobile view ===============*/
+@media screen and (max-width: 576px) {
+  /********************************************/
+  /*               INDEX STYLES               */
+  /********************************************/
+  .nav__section {
+    padding: 9px 24px;
+  }
+
+  .jumbotron__section {
+    padding-top: 106px;
+  }
+
+  .jumbotron__body {
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left__jumbotron__body {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    flex: 100%;
+    justify-content: center;
+  }
+
+  .right__jumbotron__body {
+    flex: 0;
+  }
+
+  .right__img {
+    display: none;
+  }
+
+  /********************************************/
+  /*               LOGIN STYLES               */
+  /********************************************/
+  .login-heading {
+    text-align: center;
+  }
+
+  .btn__close {
+    margin: 18px 28px;
+  }
+
+  .btn__close i {
+    font-size: 30px;
+  }
+
+  /************************************************/
+  /*               VIEW BOOK STYLES               */
+  /************************************************/
+
+  /*******************************************/
+  /*               RESPONEIVES               */
+  /*******************************************/
+}
