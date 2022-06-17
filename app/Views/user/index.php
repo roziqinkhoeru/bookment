@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 
-<div class="jumbotron__section">
+<section class="jumbotron__section">
     <div class="container">
         <div class="jumbotron__body">
             <div class="left__body">
@@ -18,6 +18,6 @@
             </div> <!-- end right body -->
         </div> <!-- end jumbotron body -->
     </div> <!-- end container -->
-</div> <!-- end jumbotron section -->
+</section> <!-- end jumbotron section -->
 
 <?= $this->endSection();

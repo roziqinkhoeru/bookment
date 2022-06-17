@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 
-<div class="container">
+<section class="container">
     <div class="card m-5">
         <div class="card-header">
             <div class="row">
@@ -33,6 +33,6 @@
             </table>
         </div>
     </div>
-</div>
+</section>
 
 <?= $this->endSection();

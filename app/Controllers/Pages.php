@@ -45,7 +45,7 @@ class Pages extends BaseController
             'css' => '',
         ];
 
-        return view('user/chart', $data);
+        return view('user/cart', $data);
     }
 
     public function login()
