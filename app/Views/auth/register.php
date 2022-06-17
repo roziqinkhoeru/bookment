@@ -73,7 +73,7 @@
 
                                         <div class="d-grid mb-3">
                                             <button class="btn btn-lg btn-login fw-bold mb-2 btn__orange text-white"
-                                                type="submit">Sign in</button>
+                                                type="submit">Daftar</button>
                                         </div> <!-- end button sign in -->
 
                                         <p>Sudah memiliki akun? <a href="/login">Login!</a></p>

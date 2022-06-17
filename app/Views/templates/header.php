@@ -35,3 +35,4 @@
         </div> <!-- end collapse navbar -->
     </nav> <!-- end navbar -->
 </div> <!-- end nav section -->
+<hr class="m-0">

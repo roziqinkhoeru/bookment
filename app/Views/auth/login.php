@@ -50,7 +50,7 @@
 
                                         <div class="d-grid mb-3">
                                             <button class="btn btn-lg btn-login fw-bold mb-2 btn__orange text-white"
-                                                type="submit">Sign in</button>
+                                                type="submit">Masuk</button>
                                         </div> <!-- end button sign in -->
 
                                         <p>Belum punya akun? <a href="/register">Daftar sekarang!</a></p>
