@@ -1,5 +1,5 @@
 <!-- navbar section -->
-<div class="nav__section position-fixed">
+<div class="nav__section position-sticky">
     <nav class="navbar navbar-expand-lg navbar-light navbar__expand">
         <a class="navbar-brand" href="/">
             <img src="/assets/img/bokorama-logo.png" class="brand__logo" alt="bookorama-logo">

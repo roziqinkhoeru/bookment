@@ -83,7 +83,7 @@ h1 {
 }
 
 .jumbotron__section {
-  padding-top: 60px;
+  padding-top: 0;
 }
 
 .jumbotron__body {
@@ -199,7 +199,7 @@ h1 {
   }
 
   .jumbotron__section {
-    padding-top: 106px;
+    padding-top: 2rem;
   }
 
   .jumbotron__body {
