@@ -6,21 +6,45 @@ class Pages extends BaseController
 {
     public function home()
     {
-        return view('user/index');
+        $data = [
+            'title' => 'Manage your book with one click | Bookment 2022',
+            'tab' => 'home',
+            'css' => '',
+        ];
+
+        return view('user/index', $data);
     }
 
     public function book()
     {
-        return view('user/book');
+        $data = [
+            'title' => 'Books | Bookment 2022',
+            'tab' => 'book',
+            'css' => '',
+        ];
+
+        return view('user/book', $data);
     }
 
     public function customer()
     {
-        return view('user/customer');
+        $data = [
+            'title' => 'Customer | Bookment 2022',
+            'tab' => 'customer',
+            'css' => '',
+        ];
+
+        return view('user/customer'. $data);
     }
 
     public function cart()
     {
-        return view('user/chart');
+        $data = [
+            'title' => 'Cart | Bookment 2022',
+            'tab' => 'cart',
+            'css' => '',
+        ];
+
+        return view('user/chart'. $data);
     }
 }
