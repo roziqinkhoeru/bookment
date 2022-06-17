@@ -30,7 +30,7 @@
             </ul>
 
             <div class="navbar-nav nav__item btn__sec">
-                <a href="/Book/login" class="nav-link nav__link btn__login">Log in</a>
+                <a href="/login" class="nav-link nav__link btn__login">Log in</a>
             </div>
         </div> <!-- end collapse navbar -->
     </nav> <!-- end navbar -->

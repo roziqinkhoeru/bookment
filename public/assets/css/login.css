@@ -21,6 +21,10 @@
   letter-spacing: 0.05rem;
 }
 
+.btn-login:hover {
+  background-color: orange;
+}
+
 .btn__close {
   position: absolute;
   right: 0;

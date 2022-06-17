@@ -39,6 +39,7 @@ $routes->get('/', 'Pages::home');
 $routes->get('/book', 'Pages::book');
 $routes->get('/customer', 'Pages::customer');
 $routes->get('/chart', 'Pages::chart');
+$routes->get('/login', 'Pages::login');
 
 /*
  * --------------------------------------------------------------------

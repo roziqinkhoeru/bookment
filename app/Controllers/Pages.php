@@ -34,7 +34,7 @@ class Pages extends BaseController
             'css' => '',
         ];
 
-        return view('user/customer'. $data);
+        return view('user/customer', $data);
     }
 
     public function cart()
@@ -45,6 +45,16 @@ class Pages extends BaseController
             'css' => '',
         ];
 
-        return view('user/chart'. $data);
+        return view('user/chart', $data);
+    }
+
+    public function login()
+    {
+        $data = [
+            'title' => 'Login Bookment',
+            'css' => '<link rel="stylesheet" href="/assets/css/login.css">',
+        ];
+
+        return view('auth/login', $data);
     }
 }
