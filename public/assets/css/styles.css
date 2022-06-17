@@ -82,8 +82,9 @@ h1 {
 }
 
 .nav__item.active .nav__link {
-  background-color: rgba(255, 165, 0, 0.1);
+  background-color: rgba(255, 165, 0, 0.2);
   color: black;
+  font-weight: 600;
 }
 
 .btn__login {
