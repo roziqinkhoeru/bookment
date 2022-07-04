@@ -39,15 +39,15 @@
                                         <!-- first name -->
                                         <div class="form-floating mb-3">
                                             <input type="text" class="form-control shadow-none"
-                                                placeholder="masukkan first name">
-                                            <label for="floatingInput">First Name</label>
+                                                placeholder="masukkan full name">
+                                            <label for="floatingInput">Full Name</label>
                                         </div>
 
                                         <!-- last name -->
                                         <div class="form-floating mb-3">
                                             <input type="text" class="form-control shadow-none"
-                                                placeholder="masukkan last name">
-                                            <label for="floatingInput">Last Name</label>
+                                                placeholder="masukkan username">
+                                            <label for="floatingInput">Username</label>
                                         </div>
 
                                         <!-- email -->
